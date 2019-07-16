@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC0690EB22D3FD590056E09B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0690EA22D3FD590056E09B /* Helper.swift */; };
+		EC9095CA22DD10A600778887 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9095C922DD10A600778887 /* Media.xcassets */; };
+		ECA4A4F422D802F300951964 /* ClownZombie.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA4A4F322D802F300951964 /* ClownZombie.scnassets */; };
+		ECA4A4F622D807F000951964 /* WomanZombie.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA4A4F522D807F000951964 /* WomanZombie.scnassets */; };
+		ECABAD6D22D8EB3A0073B222 /* WWZombie.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ECABAD6C22D8EB3A0073B222 /* WWZombie.scnassets */; };
+		ECB19B7322D65211004441CF /* GunController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB19B7222D65211004441CF /* GunController.swift */; };
+		ECB8476922D4D1E300BBA1D1 /* GirlScoutZombie.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB8476822D4D1E300BBA1D1 /* GirlScoutZombie.scnassets */; };
+		ECD10EB522D3DB39000983C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD10EB422D3DB39000983C2 /* AppDelegate.swift */; };
+		ECD10EB722D3DB39000983C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD10EB622D3DB39000983C2 /* ViewController.swift */; };
+		ECD10EBA22D3DB39000983C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD10EB822D3DB39000983C2 /* Main.storyboard */; };
+		ECD10EBC22D3DB3B000983C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD10EBB22D3DB3B000983C2 /* Assets.xcassets */; };
+		ECD10EBF22D3DB3B000983C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD10EBD22D3DB3B000983C2 /* LaunchScreen.storyboard */; };
+		ECD10ECD22D3DE80000983C2 /* ExquisiteCorpse.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECD10ECC22D3DE80000983C2 /* ExquisiteCorpse.ttf */; };
+		ECD10ECF22D3DE8D000983C2 /* FEASFBRG.TTF in Resources */ = {isa = PBXBuildFile; fileRef = ECD10ECE22D3DE8D000983C2 /* FEASFBRG.TTF */; };
+		ECD10ED122D3E07B000983C2 /* Zombie.wav in Resources */ = {isa = PBXBuildFile; fileRef = ECD10ED022D3E07B000983C2 /* Zombie.wav */; };
+		ECD52CD922D509E50031FA80 /* PrisonerZombie.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD52CD822D509E50031FA80 /* PrisonerZombie.scnassets */; };
+		ECD52CDB22D50A900031FA80 /* CopZombie.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD52CDA22D50A900031FA80 /* CopZombie.scnassets */; };
+		ECD52CDD22D50B870031FA80 /* SurvivorZombie.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD52CDC22D50B870031FA80 /* SurvivorZombie.scnassets */; };
+		ECD52CDF22D50BFE0031FA80 /* Smoke.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD52CDE22D50BFE0031FA80 /* Smoke.scnassets */; };
+		ECD52CE122D534670031FA80 /* Glock.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD52CE022D534670031FA80 /* Glock.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC0690EA22D3FD590056E09B /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		EC9095C922DD10A600778887 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		ECA4A4F322D802F300951964 /* ClownZombie.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ClownZombie.scnassets; sourceTree = "<group>"; };
+		ECA4A4F522D807F000951964 /* WomanZombie.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = WomanZombie.scnassets; sourceTree = "<group>"; };
+		ECABAD6C22D8EB3A0073B222 /* WWZombie.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = WWZombie.scnassets; sourceTree = "<group>"; };
+		ECB19B7222D65211004441CF /* GunController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunController.swift; sourceTree = "<group>"; };
+		ECB8476822D4D1E300BBA1D1 /* GirlScoutZombie.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = GirlScoutZombie.scnassets; sourceTree = "<group>"; };
+		ECD10EB122D3DB39000983C2 /* ZombieGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZombieGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD10EB422D3DB39000983C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECD10EB622D3DB39000983C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECD10EB922D3DB39000983C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECD10EBB22D3DB3B000983C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECD10EBE22D3DB3B000983C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECD10EC022D3DB3B000983C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD10ECC22D3DE80000983C2 /* ExquisiteCorpse.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ExquisiteCorpse.ttf; sourceTree = "<group>"; };
+		ECD10ECE22D3DE8D000983C2 /* FEASFBRG.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FEASFBRG.TTF; sourceTree = "<group>"; };
+		ECD10ED022D3E07B000983C2 /* Zombie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Zombie.wav; sourceTree = "<group>"; };
+		ECD52CD822D509E50031FA80 /* PrisonerZombie.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = PrisonerZombie.scnassets; sourceTree = "<group>"; };
+		ECD52CDA22D50A900031FA80 /* CopZombie.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = CopZombie.scnassets; sourceTree = "<group>"; };
+		ECD52CDC22D50B870031FA80 /* SurvivorZombie.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = SurvivorZombie.scnassets; sourceTree = "<group>"; };
+		ECD52CDE22D50BFE0031FA80 /* Smoke.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Smoke.scnassets; sourceTree = "<group>"; };
+		ECD52CE022D534670031FA80 /* Glock.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Glock.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECD10EAE22D3DB39000983C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB8476A22D4D1F200BBA1D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECD10EB422D3DB39000983C2 /* AppDelegate.swift */,
+				ECD10EBB22D3DB3B000983C2 /* Assets.xcassets */,
+				ECD10EBD22D3DB3B000983C2 /* LaunchScreen.storyboard */,
+				ECD10EC022D3DB3B000983C2 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ECD10EA822D3DB39000983C2 = {
+			isa = PBXGroup;
+			children = (
+				ECD10EB322D3DB39000983C2 /* ZombieGo */,
+				ECD10EB222D3DB39000983C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECD10EB222D3DB39000983C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD10EB122D3DB39000983C2 /* ZombieGo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECD10EB322D3DB39000983C2 /* ZombieGo */ = {
+			isa = PBXGroup;
+			children = (
+				ECB8476A22D4D1F200BBA1D1 /* Resources */,
+				ECD10ED022D3E07B000983C2 /* Zombie.wav */,
+				ECD10EC722D3DE69000983C2 /* Fonts */,
+				ECD10EB622D3DB39000983C2 /* ViewController.swift */,
+				ECD10EB822D3DB39000983C2 /* Main.storyboard */,
+				EC0690EA22D3FD590056E09B /* Helper.swift */,
+				ECABAD6C22D8EB3A0073B222 /* WWZombie.scnassets */,
+				ECA4A4F522D807F000951964 /* WomanZombie.scnassets */,
+				ECA4A4F322D802F300951964 /* ClownZombie.scnassets */,
+				ECB8476822D4D1E300BBA1D1 /* GirlScoutZombie.scnassets */,
+				ECD52CD822D509E50031FA80 /* PrisonerZombie.scnassets */,
+				ECD52CDA22D50A900031FA80 /* CopZombie.scnassets */,
+				ECD52CDC22D50B870031FA80 /* SurvivorZombie.scnassets */,
+				ECD52CDE22D50BFE0031FA80 /* Smoke.scnassets */,
+				ECD52CE022D534670031FA80 /* Glock.scnassets */,
+				ECB19B7222D65211004441CF /* GunController.swift */,
+				EC9095C922DD10A600778887 /* Media.xcassets */,
+			);
+			path = ZombieGo;
+			sourceTree = "<group>";
+		};
+		ECD10EC722D3DE69000983C2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ECD10ECC22D3DE80000983C2 /* ExquisiteCorpse.ttf */,
+				ECD10ECE22D3DE8D000983C2 /* FEASFBRG.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECD10EB022D3DB39000983C2 /* ZombieGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD10EC322D3DB3B000983C2 /* Build configuration list for PBXNativeTarget "ZombieGo" */;
+			buildPhases = (
+				ECD10EAD22D3DB39000983C2 /* Sources */,
+				ECD10EAE22D3DB39000983C2 /* Frameworks */,
+				ECD10EAF22D3DB39000983C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZombieGo;
+			productName = ZombieGo;
+			productReference = ECD10EB122D3DB39000983C2 /* ZombieGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECD10EA922D3DB39000983C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Lo Howard";
+				TargetAttributes = {
+					ECD10EB022D3DB39000983C2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ECD10EAC22D3DB39000983C2 /* Build configuration list for PBXProject "ZombieGo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECD10EA822D3DB39000983C2;
+			productRefGroup = ECD10EB222D3DB39000983C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECD10EB022D3DB39000983C2 /* ZombieGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECD10EAF22D3DB39000983C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA4A4F422D802F300951964 /* ClownZombie.scnassets in Resources */,
+				ECB8476922D4D1E300BBA1D1 /* GirlScoutZombie.scnassets in Resources */,
+				ECD10EBF22D3DB3B000983C2 /* LaunchScreen.storyboard in Resources */,
+				ECD52CDD22D50B870031FA80 /* SurvivorZombie.scnassets in Resources */,
+				ECD10ECD22D3DE80000983C2 /* ExquisiteCorpse.ttf in Resources */,
+				ECD52CD922D509E50031FA80 /* PrisonerZombie.scnassets in Resources */,
+				ECABAD6D22D8EB3A0073B222 /* WWZombie.scnassets in Resources */,
+				ECD52CE122D534670031FA80 /* Glock.scnassets in Resources */,
+				ECD10ED122D3E07B000983C2 /* Zombie.wav in Resources */,
+				ECD52CDF22D50BFE0031FA80 /* Smoke.scnassets in Resources */,
+				EC9095CA22DD10A600778887 /* Media.xcassets in Resources */,
+				ECD52CDB22D50A900031FA80 /* CopZombie.scnassets in Resources */,
+				ECD10ECF22D3DE8D000983C2 /* FEASFBRG.TTF in Resources */,
+				ECD10EBC22D3DB3B000983C2 /* Assets.xcassets in Resources */,
+				ECD10EBA22D3DB39000983C2 /* Main.storyboard in Resources */,
+				ECA4A4F622D807F000951964 /* WomanZombie.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECD10EAD22D3DB39000983C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD10EB722D3DB39000983C2 /* ViewController.swift in Sources */,
+				ECD10EB522D3DB39000983C2 /* AppDelegate.swift in Sources */,
+				ECB19B7322D65211004441CF /* GunController.swift in Sources */,
+				EC0690EB22D3FD590056E09B /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECD10EB822D3DB39000983C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD10EB922D3DB39000983C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECD10EBD22D3DB3B000983C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD10EBE22D3DB3B000983C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECD10EC122D3DB3B000983C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECD10EC222D3DB3B000983C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECD10EC422D3DB3B000983C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGUCD6ZAV7;
+				INFOPLIST_FILE = "$(SRCROOT)/ZombieGo/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lo.ZombieGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECD10EC522D3DB3B000983C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGUCD6ZAV7;
+				INFOPLIST_FILE = "$(SRCROOT)/ZombieGo/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lo.ZombieGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECD10EAC22D3DB39000983C2 /* Build configuration list for PBXProject "ZombieGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD10EC122D3DB3B000983C2 /* Debug */,
+				ECD10EC222D3DB3B000983C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD10EC322D3DB3B000983C2 /* Build configuration list for PBXNativeTarget "ZombieGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD10EC422D3DB3B000983C2 /* Debug */,
+				ECD10EC522D3DB3B000983C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECD10EA922D3DB39000983C2 /* Project object */;
+}
